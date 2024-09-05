@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: url('images/kaffy.jpg') no-repeat center center;
+  background-size: 75%;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+footer p {
+  margin: 0;
+}
